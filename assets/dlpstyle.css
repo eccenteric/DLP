@@ -1,0 +1,382 @@
+@font-face {
+    font-family: 'din_alternate_lightregular';
+    src: url('../fonts/din_alternate_light-webfont.woff2') format('woff2'),
+         url('../fonts/din_alternate_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dincond-blackregular';
+    src: url('../fonts/dincond-black-webfont.woff2') format('woff2'),
+         url('../fonts/dincond-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dinmedium';
+    src: url('../fonts/din-medium-webfont.woff2') format('woff2'),
+         url('../fonts/din-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.dlpbody {
+    width: 100vw;
+    overflow-x: hidden;
+    min-width:300px
+}
+.dlpcontent{
+    background: url("../images/Asset22.png") #f9d789 no-repeat top left;
+    min-height: 1500px;
+    background-repeat: no-repeat;
+    background-size: 100.8%;
+}
+.dlpcontentinner {
+    background: url("../images/topbanner.png") no-repeat top left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.dlpchineseheader{
+background: url("../images/chheader.png") no-repeat top left!important;
+    background-size: 100%!IMPORTANT;
+}
+
+.dlpfirstsection {
+    padding-top: 32vw;
+}
+
+h2.dlpheading {
+    text-align: center;
+    font-family: dincond-blackregular;
+    letter-spacing: -1px;
+    font-size: 40px;
+    color: #805421;
+}
+.dlptag{
+    display: flex;
+    justify-content: flex-end
+}
+
+.dlppadding{
+    padding-top: 20px;
+}
+
+.dlpcenter{
+    display: flex;
+    justify-content: center;
+}
+
+.dlpproductholder {
+    border-radius: 160px;
+    border: 8px solid #8ccfd0;
+    margin-top: 20px;
+    background: url(../images/dotbg.png) #fff;
+    background-repeat:no-repeat;
+    padding-bottom:100px
+}
+
+.dlpproduct img {
+    width: 100%;
+    height: auto;
+        max-height: 300px;
+    max-width: 300px;
+}
+
+.dlpproduct > div:first-child img {
+    padding: 20px;
+}
+
+.dlpproduct > div:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.dlpprodtitle {
+    font-family: Din;
+    color: #805421;
+    text-align: center;
+}
+
+.dlpproddesc {
+    color: #805421;
+    font-family: din_alternate_lightregular;
+    font-weight: 400;
+    text-align: center;
+}
+
+.dlpproductcaption {
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dlpshopbtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.dlpshopbtn img {
+    width: 100px;
+    padding-top: 20px;
+}
+.dlpgiftbox{
+    background: url("../images/Asset 17.png") no-repeat;
+    background-size: 100% 100%;
+    width: 300px;
+    height: 200px;
+}
+.dlpgiftimg img {
+    width: 200px;
+}
+
+.giftholder {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dlpgiftimg img {
+    height: 115px;
+    width: auto;
+}
+
+.dlpgifttitle {
+    font-family: dinmedium;
+    color: #805421;
+    text-align: center;
+    padding-top: 8px;
+    padding-left:15%;
+}
+
+.dlpgiftimg {
+    display: flex;
+    justify-content: center;
+        padding-top: 0px;
+    padding-left: 15%;
+}
+
+.dlpgiftcaption{
+    background: url("../images/Asset 18.png") no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: dinmedium;
+}
+.dlpgiftcaption span {
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+        color: #fff;
+}
+
+.dlpterms {
+    font-family: din;
+    color: #805421;
+}
+
+.dlpterms li {
+    font-weight: 300;
+}
+.dlpornamentleft {
+    position: relative;
+}
+
+.dlpornamentleft img {
+    position: absolute;
+    left: -160px;
+    z-index: 2;
+}
+
+.dlpornamentright {
+    position: relative;
+}
+
+.dlpornamentright img {
+    position: absolute;
+    right: -200px;
+    top:-100px;
+    z-index: 2;
+}
+.dlpwave{
+margin-left: -30px!important;
+    margin-right: 0px!important;
+    width: calc(100% + 60px);
+}
+.dlpproductholder{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dlpproductsholder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dlpgiftimg {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1200px){
+.dlpproductcaption {
+    margin-top:-20px;
+}
+
+.dlpproduct {
+    min-height: 320px;
+}
+.dlpornamentright, .dlpornamentleft {
+    display: none;
+}
+.dlpcontent {
+    background: #f9d789;
+    }
+    
+.dlptagg {
+    padding-bottom: 10px;
+}
+
+.dlpproduct{position:relative;}
+}
+
+.dlpheadline {
+    padding: 0 40px;
+}
+.dlptagg img{
+width:100%;
+height: 100%;
+}
+@media only screen and (max-width: 500px){
+.dlpproduct > div:first-child img  {
+    padding: 0px;
+    height:140px;
+    width:140px;
+}
+
+.dlpproductcaption {
+    margin-top: 0px;
+}
+
+.dlpgifthead img{
+    width:100%;
+    height: 100%;
+}
+
+.dlpgiftcaption span{
+    font-size:12px;
+}
+.dlpgifttitle {
+    font-size: 14px;
+    padding-top: 6px;
+    padding-left: 15%;
+}
+
+.dlpgiftimg img {
+    max-height: 145px;
+    height: auto;
+    max-width: 190px;
+}
+.dlpgiftbox {
+    position:relative;
+    }
+
+h2.dlpheading{
+font-size:20px;
+padding:20px
+}
+.dlpshopbtn img {
+    width: 75px;
+    padding-top: 20px;
+}
+
+.dlpproductsholder {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.dlpproduct {
+    position: relative;
+    padding: 20px 0;
+    min-height: auto!important;
+}
+.dlpshopbtn {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    bottom: -20px;
+    left: 2px;
+    z-index: 9;
+}
+.giftholder {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.dlpgiftimg {
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 15%;
+}
+
+.shpmobbtn img{
+width:180px;
+
+}
+.dlpproductholder {
+    border-radius: 100px;
+    }
+    .dlpchgift .dlpgiftcaption span {
+    font-size: 16px!important;
+}
+    
+    
+}
+
+
+
+@media only screen and (max-width: 400px){
+.dlpgiftcaption, .dlpgiftbox {
+width:70vw;
+}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px){
+.dlpproduct .dlpshopbtn {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    z-index: 2;
+}
+.dlpproduct {
+    position: relative;
+    margin-bottom: 20px;
+}
+}
